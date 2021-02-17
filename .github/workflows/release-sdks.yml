@@ -101,4 +101,4 @@ jobs:
     - name: Publish to Apache Maven Central
       run: |
         cd ${{ env.JAVA_SDK_LOCATION }}
-        mvn -Psign-artifacts verify deploy
+        mvn -Psign-artifacts verify
